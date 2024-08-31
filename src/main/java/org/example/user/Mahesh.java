@@ -13,7 +13,7 @@ public class Mahesh {
 
     @Autowired
     @Qualifier("")
-    public void setGoodGirl(Bakery bakery) {
+    public void setFood(Bakery bakery) {
         this.bakery = bakery;
     }
 
